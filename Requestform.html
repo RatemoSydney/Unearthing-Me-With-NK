@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- METADATA -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='keywords' content="Nyambura Kinyanjui, Waru Worior, Unearthing me, Mediation services, Therapy services, Dialectical Behavior Therapy, Talk Therapy">
+    <meta name="description" content="Website for Nyambura Kinyanjui's services:Therapy and Mediaton">
+    <meta name="author" content="Antony Sydney">
+    <meta name="index/robots" content="noindex/norobots">
+    <!-- CSS & JS -->
+    
+  
+    <link rel='stylesheet' type='text/css' href='CSS\style.css'>
+    <link rel='stylesheet' type='text/css' href='CSS\forms.css'>
+    <!---->
+    <link rel='stylesheet' type='text/css' media='screen' href='CSS\media.css'>
+    <link rel="preload" as="style" href="CSS\style.css">
+    <link rel="preload" as="style" href="CSS\media.css">
+
+    <script src="Js\main.js" defer></script> 
+
+    <link type="text/css" rel="stylesheet" href="F:\Web Design\fontawesome-free-6.2.0-web\css\all.css">
+    <script src="https://kit.fontawesome.com/fce31c0942.js" crossorigin="anonymous"></script>
+    
+    
+    <!-- DATA ON BROWSER TAB-->
+    <title>Unearthing Me with Nyambura Kinyanjui</title>
+    <link rel="shortcut icon" href="Images\logo-II.png" type="image/x-icon">
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="logo" id="brandName">
+            <a href="index.html">
+                <span>
+                    <img src="images/logo-I.png" alt="" loading="lazy">
+                </span>
+            </a>
+            <a href="index.html">
+                <h1>Nyambura Kinyanjui</h1>
+            </a>
+        </div>
+    </header>
+    <!-- MAIN-CONTENT -->
+    <main>
+        <article>
+            <section class="container">
+                <div class="content forms">
+                    <form action="#" method="post">
+                        <!--THERAPY FORM-->
+                        <h1>Fill For Therapy Services</h1>
+                        <div class="form_contents">
+                            <label for="clientName">Enter your Name </label>
+                            <input type="text" enterkeyhint="next" id="clientName" autocomplete="name" placeholder="eg: JohnDoe" required>
+                            <label for="clientMail">Enter your Email </label>
+                            <input type="email" enterkeyhint="next" id="clientMail" autocomplete="off" placeholder="eg: johndoe@example.com" required>
+                            <label for="clientTel">Enter your Phone Number</label>
+                            <input type="tel" enterkeyhint="next" id="clientTel" autocomplete="tel-country-code"  placeholder="eg: +254 71234 5678 / 0712345678" required>
+                            <label for="client">Choose one you prefer</label>
+                            <div class="radio">
+                                Individual <input type="radio" enterkeyhint="next"  name="individual_or_couple" id="client" checked>
+                                Couple <input type="radio" enterkeyhint="next"  name="individual_or_couple" id="client">
+                            </div>
+                            <label for="clientDate">Select Date for Session</label>
+                            <input type="date" enterkeyhint="next" id="clientDate" autocomplete="off" required>
+                            <p>
+                                for dates refer to <button class="diary-link">Schedule calender</button>
+                            </p>
+                            <input type="submit" value="Submit Form">
+                        </div>
+                    </form>
+                    <form action="#" method="post">
+                        <!--Mediation-->
+                        <h1>Fill For Mediation Services</h1>
+                        <div class="form_contents">
+                            <label for="client1Name">Enter Name (individual/organisation)</label>
+                            <input type="text" enterkeyhint="next" id="client1Name" autocomplete="name" placeholder="eg: JohnDoe" required>
+                            <label for="client1Mail">Enter Email </label>
+                            <input type="email" enterkeyhint="next" id="client1Mail" autocomplete="off" placeholder="eg: johndoe@example.com" required>
+                            <label for="client1Tel">Enter Mobile Number</label>
+                            <input type="tel" enterkeyhint="next" id="client1Tel" autocomplete="tel-country-code"  placeholder="eg: +254 71234 5678 / 0712345678" required>
+                            <label for="client1">Choose one</label>
+                            <div class="radio">
+                                Individual <input type="radio" enterkeyhint="next"  name="individual_or_couple" id="client1" checked>
+                                Organisation/Groups <input type="radio" enterkeyhint="next"  name="individual_or_couple" id="client1">
+                                Couple <input type="radio" enterkeyhint="next"  name="individual_or_couple" id="client1">
+                            </div>
+                            <label for="client1Date">Select Date for Session</label>
+                            <input type="date" enterkeyhint="next" id="client1Date" autocomplete="off" required>
+                            <p>
+                                for dates refer to <button class="diary-link">Schedule calender</button>
+                            </p>
+                            <input type="submit" value="Submit Form">
+                        </div>
+                    </form>
+            </section>
+        </article>       
+        <aside class="adverts">
+            <!--FOR ANY ADVERTS-->
+        </aside>
+        <div class="diary">
+            <button class="cancel">X</button>
+            <div class="calender">
+                <div class="calendar-head">
+                    <p class="currentdate"></p>
+                    <div class="icons">
+                        <span id="prev">&larr;</span>
+                        <span id="next">&rarr;</span>
+                    </div>
+                </div>
+                <div class="calendar-body">
+                    <ul class="weeks">
+                        <li>Sun</li>
+                        <li>Mon</li>
+                        <li>Tue</li>
+                        <li>Wed</li>
+                        <li>Thu</li>
+                        <li>Fri</li>
+                        <li>Sat</li>
+                    </ul>
+                    <ul class="days"></ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <div class="inquiries_box">
+            <h2>Have Inquiries?</h2>
+            <p>
+                Drop your questions to our inbox
+                <a href="mailto:nk.unearthingme@gmail.com">nk.unearthingme@gmail.com</a>
+                Or leave us a word in a text 
+                <a href="sms:+254721840169">+254 721 840169</a>
+            </p>
+        </div>
+        <div class="links">
+            <div class="page-links">
+                <a href="#">Back To Top</a>
+                <p>DOWNLOADABLES</p>
+                <a href="MTI-East-Africa-Mediation-Centre-Rules-2021.pdf" download>Mediation Rate Card</a>
+                <a href="Resources/RateCard.pdf" download>
+                    Therapy Rate Card
+                    <br>
+                    (Individuals & Couples)
+                </a>
+            </div>
+            <!--
+            <div class="social-links">
+                <a href="#mailto:nk.unearthingme@gmail.com" title="Mail Us">
+                    <i class="fa-regular fa-envelope"></i> 
+                    <span> Send an Email</span>
+                </a>
+                <a href="tel:+254721840169" title="Call Us">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>Send a text</span>
+                </a>
+            </div>
+            -->
+        </div>
+        <div class="copyright">
+            <span>
+                <p>
+                    Copyright &copy2022 Unearthing Me with Nyambura Kinyanjui | Designed by Antony Sydney
+                </p>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
